@@ -50,7 +50,7 @@ function Archive(props) {
 // render
   return (
     <div className="container position-absolute start-50 translate-middle-x scroller">
-      <row className="row">
+      <div className="row">
           {data.map((item) => (
             <div className=" col-md-auto border rounded m-2 " key={item._id}>
               <div className="m-2">
@@ -68,7 +68,7 @@ function Archive(props) {
               </div>
             </div>
           ))}
-      </row>
+      </div>
     </div>
   );
 }

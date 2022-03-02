@@ -1,7 +1,7 @@
 let data = [
   {
     _id: 0,
-    title: "Some Title",
+    title: "Repair Dropdown",
     content: "something to do",
     date: "28/02/2022",
     state: "backlock",
@@ -9,7 +9,7 @@ let data = [
   },
   {
     _id: 1,
-    title: "Some Title",
+    title: "Add Button",
     content: "something to do",
     date: "28/02/2022",
     state: "backlock",
@@ -17,7 +17,7 @@ let data = [
   },
   {
     _id: 2,
-    title: "Some Title",
+    title: "Return Data",
     content: "something to do",
     date: "28/02/2022",
     state: "backlock",
@@ -25,7 +25,7 @@ let data = [
   },
   {
     _id: 3,
-    title: "Some Title",
+    title: "Add to NavBar",
     content: "something to do",
     date: "28/02/2022",
     state: "backlock",
@@ -33,7 +33,7 @@ let data = [
   },
   {
     _id: 4,
-    title: "Some Title",
+    title: "Login Bug",
     content: "something to do",
     date: "28/02/2022",
     state: "backlock",
@@ -41,8 +41,16 @@ let data = [
   },
 
   {
+    _id: 5,
+    title: "Add API call",
+    content: "something to do",
+    date: "28/02/2022",
+    state: "entwicklung",
+    status: false,
+  },
+  {
     _id: 6,
-    title: "Some Title",
+    title: "Fix Bug",
     content: "something to do",
     date: "28/02/2022",
     state: "entwicklung",
@@ -50,25 +58,15 @@ let data = [
   },
   {
     _id: 7,
-    title: "Some Title",
-    content: "something to do",
-    date: "28/02/2022",
-    state: "entwicklung",
-    status: false,
-  },
-
-  {
-    _id: 5,
-    title: "Some Title",
+    title: "Add Feature",
     content: "something to do",
     date: "28/02/2022",
     state: "entwicklung",
     status: true,
   },
-
   {
     _id: 8,
-    title: "Some Title",
+    title: "Delete route",
     content: "something to do",
     date: "28/02/2022",
     state: "testen",
@@ -76,7 +74,7 @@ let data = [
   },
   {
     _id: 9,
-    title: "Some Title",
+    title: "Add Support for x",
     content: "something to do",
     date: "28/02/2022",
     state: "testen",
@@ -85,7 +83,7 @@ let data = [
 
   {
     _id: 10,
-    title: "Some Title",
+    title: "Fix Bug",
     content: "something to do",
     date: "28/02/2022",
     state: "testen",
@@ -94,7 +92,7 @@ let data = [
 
   {
     _id: 11,
-    title: "Some Title",
+    title: "Add Email",
     content: "something to do",
     date: "28/02/2022",
     state: "release",
@@ -102,7 +100,7 @@ let data = [
   },
   {
     _id: 12,
-    title: "Some Title",
+    title: "Delete PhoneNr",
     content: "something to do",
     date: "28/02/2022",
     state: "release",
@@ -110,7 +108,7 @@ let data = [
   },
   {
     _id: 13,
-    title: "Some Title",
+    title: "Add img",
     content: "something to do",
     date: "28/02/2022",
     state: "release",
@@ -119,7 +117,7 @@ let data = [
 
   {
     _id: 14,
-    title: "Some Title",
+    title: "Delete API call",
     content: "something to do",
     date: "28/02/2022",
     state: "fertig",
@@ -127,7 +125,7 @@ let data = [
   },
   {
     _id: 15,
-    title: "Some Title",
+    title: "Add logging",
     content: "something to do",
     date: "28/02/2022",
     state: "fertig",
@@ -138,7 +136,7 @@ let data = [
 let archive = [
   {
     _id: 16,
-    title: "Some Title1",
+    title: "Add Archive",
     content: "something to do",
     date: "28/02/2022",
     state: "fertig",
@@ -147,7 +145,7 @@ let archive = [
   },
   {
     _id: 17,
-    title: "Some Title2",
+    title: "Add Feature",
     content: "something to do",
     date: "28/02/2022",
     state: "fertig",

@@ -57,8 +57,8 @@ function Home(props) {
   if (!data) return <div>No Data</div>;
   if (data) return (
     <div className="position-relative">
-      <div className="container position-absolute start-50 translate-middle-x scroller">
-        <div className="row w-100">
+      <div className="container-fluid scroller">
+        <div className="row justify-content-center">
           <RowElem
             label={labels.backlock}
             dataSet={backlock}
@@ -66,7 +66,7 @@ function Home(props) {
             setData={setData}
             
           />
-          <div className="vr" />
+          <div  className="vr" />
           <RowElem
             label={labels.entwicklung}
             dataSet={entwicklung}
